@@ -1,0 +1,2508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SobTech</title>
+    <!-- aos  -->
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <!-- slider  -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.css" />
+    <!-- compiled from input.css -->
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <!-- overwrite custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body id="root " class="relative bg-[#FFFAF0]">
+    <div
+      class="flex justify-center w-full fixed top-0 z-[99999]"
+      id="stickyHeader"
+    >
+      <header
+        class="container flex justify-between items-center py-3 lg:py-5 px-5 xl:px-0"
+      >
+        <div class="">
+          <img src="./assets/img/home-1/logo.svg" alt="" class="" />
+        </div>
+        <div class="gap-6 hidden lg:flex">
+          <div class="relative group">
+            <a href="/" class="w-fit">
+              <div class="nav-link group/item">
+                Home
+                <img
+                  src="./assets/img/icon/down-arrow.svg"
+                  alt=""
+                  class="group-hover/item:rotate-180"
+                />
+              </div>
+            </a>
+            <div
+              class="absolute overflow-hidden h-0 transition-all duration-300 bg-white min-w-[180px] group-hover:h-[148px] px-3 -left-3 shadow-threeSide"
+            >
+              <a href="index.html" class="w-fit">
+                <div class="nav-link group mt-3 mb-4">Digital Marketing</div>
+              </a>
+              <a href="index-2.html" class="w-fit">
+                <div class="nav-link group my-4">Mobile App</div>
+              </a>
+              <a href="index-3.html" class="w-fit">
+                <div class="nav-link group my-4">IT Solutions</div>
+              </a>
+              <a href="index-4.html" class="w-fit">
+                <div class="nav-link group my-4">IT Solutions-2</div>
+              </a>
+            </div>
+          </div>
+          <a href="about_us.html" class="w-fit">
+            <div class="nav-link group">
+              About Us
+              <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+            </div>
+          </a>
+          <a href="services.html" class="w-fit">
+            <div class="nav-link group">
+              Services
+              <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+            </div>
+          </a>
+          <a href="projects.html" class="w-fit">
+            <div class="nav-link group">
+              Projects
+              <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+            </div>
+          </a>
+          <a href="blogs.html" class="w-fit">
+            <div class="nav-link group">
+              Blogs
+              <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+            </div>
+          </a>
+          <div class="group relative">
+            <a href="/" class="w-fit">
+              <div class="nav-link group/item">
+                Pages
+                <img
+                  src="./assets/img/icon/down-arrow.svg"
+                  alt=""
+                  class="group-hover/item:rotate-180"
+                />
+              </div>
+            </a>
+            <div
+              class="absolute overflow-hidden h-0 transition-all duration-300 bg-white min-w-[180px] group-hover:h-[115px] px-3 -left-3 shadow-threeSide"
+            >
+              <a href="service_details.html" class="w-fit">
+                <div class="nav-link group mt-3 mb-4">Service Details</div>
+              </a>
+              <a href="blog-details.html" class="w-fit">
+                <div class="nav-link group my-4">Blog Details</div>
+              </a>
+              <a href="pricing.html" class="w-fit">
+                <div class="nav-link group my-4">Pricing</div>
+              </a>
+            </div>
+          </div>
+          <a href="contact.html" class="w-fit">
+            <div class="nav-link group">
+              Contact
+              <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+            </div>
+          </a>
+        </div>
+        <div class="gap-2.5 hidden lg:flex">
+          <div class="bg-btn-wrapper">
+            <a
+              class="bg-btn flex gap-1 py-5 h-fit items-center"
+              href="about_us.html"
+            >
+              Read More
+              <svg
+                width="15"
+                height="14"
+                viewBox="0 0 15 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.6875 7.71875L8.6875 12.7188C8.3125 13.125 7.65625 13.125 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- mobile menu icons  -->
+        <div class="w-8 lg:hidden" id="mobile-nav-btn">
+          <svg
+            class="transition-all duration-300"
+            id="menu-btn"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+          <svg
+            class="hidden transition-all duration-300"
+            id="close-btn"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+            />
+          </svg>
+        </div>
+      </header>
+    </div>
+    <!-- mobile nav  -->
+    <div
+      id="mnav-menu-item"
+      class="w-screen screen-height bg-black/5 left-0 fixed top-[69px] -translate-x-[100vw] transition-all duration-300 lg:hidden z-[99999999]"
+    >
+      <div class="w-[300px] h-full bg-white px-5 overflow-y-scroll">
+        <div class="gap-6">
+          <div class="relative group">
+            <div class="border-b border-[#f5f5f5]">
+              <div class="nav-link group/item py-3">
+                Home
+                <img
+                  src="./assets/img/icon/down-arrow.svg"
+                  alt=""
+                  class="group-hover/item:rotate-180"
+                />
+              </div>
+            </div>
+            <div
+              class="pl-5 h-0 overflow-hidden group-hover:h-[164px] transition-all duration-300"
+            >
+              <div class="border-b border-[#f5f5f5]">
+                <a href="/" class="w-fit">
+                  <div class="nav-link group py-3">Digital Marketing</div>
+                </a>
+              </div>
+              <div class="border-b border-[#f5f5f5]">
+                <a href="index-2.html" class="w-fit">
+                  <div class="nav-link group py-3">Mobile App</div>
+                </a>
+              </div>
+              <div class="border-b border-[#f5f5f5]">
+                <a href="index-3.html" class="w-fit">
+                  <div class="nav-link group py-3">IT Solutions</div>
+                </a>
+              </div>
+              <div class="border-b border-[#f5f5f5]">
+                <a href="index-4.html" class="w-fit">
+                  <div class="nav-link group py-3">IT Solutions-2</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="border-b border-[#f5f5f5]">
+            <a href="about_us.html" class="w-fit">
+              <div class="nav-link group py-3">
+                About Us
+                <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+              </div>
+            </a>
+          </div>
+          <div class="border-b border-[#f5f5f5]">
+            <a href="services.html" class="w-fit">
+              <div class="nav-link group py-3">
+                Services
+                <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+              </div>
+            </a>
+          </div>
+          <div class="border-b border-[#f5f5f5]">
+            <a href="projects.html" class="w-fit">
+              <div class="nav-link group py-3">
+                Projects
+                <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+              </div>
+            </a>
+          </div>
+          <div class="border-b border-[#f5f5f5]">
+            <a href="blogs.html" class="w-fit">
+              <div class="nav-link group py-3">
+                Blogs
+                <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+              </div>
+            </a>
+          </div>
+          <div class="group relative">
+            <div class="border-b border-[#f5f5f5]">
+              <div class="nav-link group/item py-3 w-fit">
+                Pages
+                <img
+                  src="./assets/img/icon/down-arrow.svg"
+                  alt=""
+                  class="group-hover/item:rotate-180"
+                />
+              </div>
+            </div>
+
+            <div
+              class="pl-5 h-0 overflow-hidden group-hover:h-[124px] transition-all duration-300"
+            >
+              <div class="border-b border-[#f5f5f5]">
+                <a href="service_details.html" class="w-fit">
+                  <div class="nav-link group py-3">Service Details</div>
+                </a>
+              </div>
+              <div class="border-b border-[#f5f5f5]">
+                <a href="blog-details.html" class="w-fit">
+                  <div class="nav-link group py-3">Blog Details</div>
+                </a>
+              </div>
+              <div class="border-b border-[#f5f5f5]">
+                <a href="pricing.html" class="w-fit">
+                  <div class="nav-link group py-3">Pricing</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="border-b border-[#f5f5f5]">
+            <a href="contact.html" class="w-fit">
+              <div class="nav-link group py-3">
+                Contact
+                <!-- <img
+                src="./assets/img/icon/down-arrow.svg"
+                alt=""
+                class="group-hover:rotate-180"
+              /> -->
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="flex gap-4 mt-5">
+          <div class="bg-btn-wrapper">
+            <a class="bg-btn py-5 flex gap-1 h-fit items-center" href="#">
+              Read More
+              <svg
+                width="15"
+                height="14"
+                viewBox="0 0 15 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.6875 7.71875L8.6875 12.7188C8.3125 13.125 7.65625 13.125 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero start  -->
+    <section class="bg-white">
+      <div
+        class="bg-no-repeat bg-cover px-4 xl:px-0 w-full pb-[103px]"
+        style="background: url('./assets/img/home-2/hero-bg.png')"
+      >
+        <div
+          class="container pt-24 lg:pt-40 grid grid-cols-6 lg:grid-cols-12 gap-5"
+        >
+          <div class="col-span-6 h-full flex justify-center flex-col">
+            <h1
+              class="w-full max-w-[450px] text-5xl sm:text-[55px] leading-[61px] font-extrabold"
+            >
+              The Future
+              <span
+                class="relative w-fit before:block before:w-full before:h-3.5 before:bg-sb-orange before:absolute before:bottom-2 before:z-0 inline-block"
+              >
+                <span class="relative z-10"> Software</span>
+              </span>
+              Unleash Mobile Potential
+            </h1>
+            <p class="w-full max-w-[484px] text-paragraph text-lg mt-7">
+              Et purus duis sollicitudin dign habitant. Egestas nulla quis
+              venenatis cras sed eu massa eu faucibus Urna fusce Et purus
+            </p>
+            <div class="flex gap-[30px] w-full mt-[30px]">
+              <!-- play store  -->
+              <a
+                href="https://play.google.com/"
+                target="blank"
+                aria-label="Play store"
+                class="flex border-2 border-black transition-all duration-300 hover:border-sb-orange py-3.5 px-5 rounded-xl"
+              >
+                <img src="./assets/img/icon/play-store.png" alt="" class="" />
+              </a>
+              <a
+                href="https://www.apple.com/app-store/"
+                target="blank"
+                aria-label="App Store"
+                class="flex border-2 border-black transition-all duration-300 hover:border-sb-orange py-3.5 px-5 rounded-xl"
+              >
+                <img src="./assets/img/icon/app-store.png" alt="" class="" />
+              </a>
+            </div>
+            <div class="flex gap-2 mt-9">
+              <img
+                src="./assets/img/home-2/download-list.png"
+                alt=""
+                class=""
+              />
+              <div class="">
+                <p class="text-xl font-[900] text-heading">3,000+</p>
+                <p class="text-sm text-paragraph">Downloads</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-6 relative flex justify-end">
+            <img
+              src="./assets/img/home-2/hero-img.png"
+              alt=""
+              class="relative z-10"
+            />
+            <img
+              src="./assets/img/home-2/hero-shape.png"
+              alt=""
+              class="absolute right-0 bottom-0 z-0"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero end  -->
+
+    <!-- About start  -->
+    <section
+      class="mt-[60px] lg:mt-[120px] overflow-hidden px-4 xl:px-0 bg-[#FFFAF0]"
+    >
+      <div class="container grid grid-cols-6 lg:grid-cols-12 gap-[60px] h-fit">
+        <!-- left side  -->
+        <div
+          data-aos="fade-right"
+          class="col-span-6 h-full flex justify-between items-center flex-wrap bg-white rounded-[20px] gap-10 md:gap-[65px] py-10 px-10 md:px-[70px]"
+        >
+          <a href="https://x.com/" target="blank" aria-label="twitter" class="">
+            <img
+              src="./assets/img/icon/twitter.png"
+              alt=""
+              class="px-2 transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="blank"
+            aria-label="Instagram"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/instagram.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://play.google.com/"
+            target="blank"
+            aria-label="Play Store"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/play-store-sm.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://drive.google.com/"
+            target="blank"
+            aria-label="Google Drive"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/drive.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://bd.linkedin.com/"
+            target="blank"
+            aria-label="linkedin"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/linkedin.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://www.pinterest.com/"
+            target="blank"
+            aria-label="pinterest"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/pintarest.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://www.paypal.com/"
+            target="blank"
+            aria-label="Paypal"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/paypal.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://telegram.org"
+            target="blank"
+            aria-label="Telegram"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/telegram.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <a
+            href="https://www.freepik.com/"
+            target="blank"
+            aria-label="freepik"
+            class=""
+          >
+            <img
+              src="./assets/img/icon/head.png"
+              alt=""
+              class="transition-all duration-300 hover:scale-110"
+            />
+          </a>
+          <p class="text-2xl font-bold text-heading w-full text-center">
+            Trusted By 50+ Companies*
+          </p>
+        </div>
+        <!-- right side  -->
+        <div
+          data-aos="fade-left"
+          class="col-span-6 h-full flex flex-col justify-center"
+        >
+          <div class="">
+            <h1 class="text-xl text-sb-orange font-bold">About Us</h1>
+            <h2
+              class="text-heading font-[900] text-3xl sm:text-[40px] leading-[35px] sm:leading-[45px] mt-[18px] max-w-[600px]"
+            >
+              Transforming Mobile Technology with <br />
+              Software
+            </h2>
+            <p class="text-paragraph text-lg mt-5 max-w-[520px]">
+              Et purus duis sollicitudin dignissim habitant. Egestas nulla quis
+              venenatis cras sed eu massa eu faucibus Urna fusce Et purus duis
+              sollicitudin dignissim habitant. Egestas nulla
+            </p>
+            <ul class="text-sm text-heading font-bold leading-[30px] mt-5">
+              <li class="flex h-fit items-center gap-2.5">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.59375 10.625C7.25 10.9688 6.71875 10.9688 6.375 10.625L4.375 8.625C4.03125 8.28125 4.03125 7.75 4.375 7.40625C4.71875 7.0625 5.25 7.0625 5.59375 7.40625L7 8.78125L10.375 5.40625C10.7188 5.0625 11.25 5.0625 11.5938 5.40625C11.9375 5.75 11.9375 6.28125 11.5938 6.625L7.59375 10.625ZM16 8C16 12.4375 12.4062 16 8 16C3.5625 16 0 12.4375 0 8C0 3.59375 3.5625 0 8 0C12.4062 0 16 3.59375 16 8ZM8 1.5C4.40625 1.5 1.5 4.4375 1.5 8C1.5 11.5938 4.40625 14.5 8 14.5C11.5625 14.5 14.5 11.5938 14.5 8C14.5 4.4375 11.5625 1.5 8 1.5Z"
+                    fill="#FC0012"
+                  />
+                </svg>
+                Et purus duis sollicitudin dignissim habitant
+              </li>
+              <li class="flex h-fit items-center gap-2.5">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.59375 10.625C7.25 10.9688 6.71875 10.9688 6.375 10.625L4.375 8.625C4.03125 8.28125 4.03125 7.75 4.375 7.40625C4.71875 7.0625 5.25 7.0625 5.59375 7.40625L7 8.78125L10.375 5.40625C10.7188 5.0625 11.25 5.0625 11.5938 5.40625C11.9375 5.75 11.9375 6.28125 11.5938 6.625L7.59375 10.625ZM16 8C16 12.4375 12.4062 16 8 16C3.5625 16 0 12.4375 0 8C0 3.59375 3.5625 0 8 0C12.4062 0 16 3.59375 16 8ZM8 1.5C4.40625 1.5 1.5 4.4375 1.5 8C1.5 11.5938 4.40625 14.5 8 14.5C11.5625 14.5 14.5 11.5938 14.5 8C14.5 4.4375 11.5625 1.5 8 1.5Z"
+                    fill="#FC0012"
+                  />
+                </svg>
+                venenatis cras sed eu massa eu faucibus uis
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end  -->
+    <!-- Why Us start  -->
+    <section class="mt-[60px] lg:mt-[120px] overflow-hidden px-4 xl:px-0">
+      <div class="container grid grid-cols-12 gap-x-[30px]">
+        <h1 class="text-xl text-sb-orange font-bold text-center col-span-12">
+          Why Choose Us
+        </h1>
+        <h2
+          class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mt-[18px] mb-8 lg:mb-[60px] text-center col-span-12"
+        >
+          Power of Mobile Software <br />
+          Unleashed Experience
+        </h2>
+        <div
+          class="col-span-12 grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 gap-[30px]"
+        >
+          <!--  card  -->
+          <div
+            data-aos="fade-up"
+            class="col-span-4 border shadow-primary border-[#F5F5F5] rounded-[20px] overflow-hidden relative after:block after:w-0 after:h-0 hover:after:w-full hover:after:h-full after:bg-sb-orange after:absolute after:top-0 after:left-0 after:transition-all after:duration-500 before:block before:w-0 before:h-0 hover:before:w-full hover:before:h-full before:bg-sb-orange before:absolute before:bottom-0 before:right-0 before:transition-all before:duration-500"
+          >
+            <div class="relative z-10 p-10 rounded-[20px] bg-white m-[1px]">
+              <div
+                class="flex justify-center items-center rounded-full bg-sb-orange w-[100px] h-[100px]"
+              >
+                <img src="./assets/img/icon/mail-setting.png" alt="" class="" />
+              </div>
+              <h1 class="text-heading text-2xl font-bold mt-12">
+                Music Player
+              </h1>
+              <p class="text-paragraph text-lg mt-3 mb-10">
+                Et purus duis sollicitudin dignissim habi tant. Egestas nulla
+                quis venenatis sed massa eu faucibus Urna fusce
+              </p>
+              <a
+                href="service_details.html"
+                class="flex h-fit items-center gap-2.5 uppercase text-base font-bold text-heading hover:text-sb-orange relative before:block before:w-full before:h-full before:border-b before:border-sb-orange before:absolute w-fit before:ease-out before:origin-right hover:before:origin-left before:transition-transform before:duration-300 before:scale-x-0 hover:before:scale-x-100 group"
+              >
+                view details
+                <span class="text-sb-orange">
+                  <svg
+                    class="group-hover:scale-x-125 origin-left transition-transform duration-300"
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!--  card  -->
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="col-span-4 border shadow-primary border-[#F5F5F5] rounded-[20px] overflow-hidden relative after:block after:w-0 after:h-0 hover:after:w-full hover:after:h-full after:bg-sb-orange after:absolute after:top-0 after:left-0 after:transition-all after:duration-500 before:block before:w-0 before:h-0 hover:before:w-full hover:before:h-full before:bg-sb-orange before:absolute before:bottom-0 before:right-0 before:transition-all before:duration-500"
+          >
+            <div class="relative z-10 p-10 rounded-[20px] bg-white m-[1px]">
+              <div
+                class="flex justify-center items-center rounded-full bg-sb-orange w-[100px] h-[100px]"
+              >
+                <img src="./assets/img/icon/curancy.png" alt="" class="" />
+              </div>
+              <h1 class="text-heading text-2xl font-bold mt-12">
+                File Transfer
+              </h1>
+              <p class="text-paragraph text-lg mt-3 mb-10">
+                Et purus duis sollicitudin dignissim habi tant. Egestas nulla
+                quis venenatis sed massa eu faucibus Urna fusce
+              </p>
+              <a
+                href="service_details.html"
+                class="flex h-fit items-center gap-2.5 uppercase text-base font-bold text-heading hover:text-sb-orange relative before:block before:w-full before:h-full before:border-b before:border-sb-orange before:absolute w-fit before:ease-out before:origin-right hover:before:origin-left before:transition-transform before:duration-300 before:scale-x-0 hover:before:scale-x-100 group"
+              >
+                view details
+                <span class="text-sb-orange">
+                  <svg
+                    class="group-hover:scale-x-125 origin-left transition-transform duration-300"
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!--  card  -->
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="group col-span-4 border shadow-primary border-[#F5F5F5] rounded-[20px] overflow-hidden relative after:block hover:after:w-0 after:w-full after:h-full after:bg-sb-orange after:absolute after:top-0 after:left-0 after:transition-all after:duration-500 before:block hover:before:w-0 before:w-full before:h-full before:bg-sb-orange before:absolute before:bottom-0 before:right-0 before:transition-all before:duration-500"
+          >
+            <div
+              class="relative z-10 pt-10 rounded-[20px] duration-300 border-t border-x border-sb-orange bg-sb-orange/20"
+            >
+              <h1
+                class="text-white group-hover:text-heading text-center text-2xl font-bold transition-all duration-300"
+              >
+                duis sollicitudin dignissim <br />
+                habi tant. Egestas
+              </h1>
+              <img
+                src="./assets/img/home-2/why-us-hover.png"
+                alt=""
+                class="mt-[25px]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why Us end  -->
+    <!-- Features  start  -->
+    <section class="mt-[60px] lg:mt-[120px] px-4 xl:px-0">
+      <div class="container grid grid-cols-6 lg:grid-cols-12 lg:gap-0">
+        <!-- left side  -->
+        <div data-aos="zoom-in-left" class="col-span-6 flex">
+          <div class="px-5 py-2.5 rounded-[20px]">
+            <img src="./assets/img/home-2/feature.png" alt="" class="" />
+          </div>
+        </div>
+        <!-- right side  -->
+        <div
+          data-aos="zoom-in-right"
+          class="col-span-6 h-full flex items-center lg:justify-end"
+        >
+          <div class="h-fit lg:max-w-[516px]">
+            <h1 class="text-xl text-sb-orange font-bold">Our Features</h1>
+            <h2
+              class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mt-[18px]"
+            >
+              Stay Connected <br />
+              with edge Mobile
+            </h2>
+            <p class="text-paragraph text-lg mt-2.5 lg:max-w-[481px]">
+              Et purus duis sollicitudin dignissim habitant. Egestas nulla quis
+              venenatis cras sed eu massa eu faucibus Urna fusce Et purus duis
+              sollicitudin dignissim habitant. Egestas nulla
+            </p>
+            <div
+              class="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-5 gap-[30px] mt-[30px]"
+            >
+              <!-- single div -->
+              <div
+                class="rounded-[20px] bg-white shadow-primary col-span-2 pl-5 py-3"
+              >
+                <h1
+                  class="text-[40px] leading-[45px] font-[900] text-sb-orange"
+                >
+                  200+
+                </h1>
+                <p class="text-lg text-paragraph">Team member</p>
+              </div>
+              <!-- single div -->
+              <div
+                class="rounded-[20px] bg-white shadow-primary col-span-2 pl-5 py-3"
+              >
+                <h1
+                  class="text-[40px] leading-[45px] font-[900] text-sb-orange"
+                >
+                  180+
+                </h1>
+                <p class="text-lg text-paragraph">Satisfied Client</p>
+              </div>
+              <!-- single div -->
+              <div
+                class="rounded-[20px] bg-white shadow-primary col-span-2 pl-5 py-3"
+              >
+                <h1
+                  class="text-[40px] leading-[45px] font-[900] text-sb-orange"
+                >
+                  300+
+                </h1>
+                <p class="text-lg text-paragraph">Complete project</p>
+              </div>
+              <!-- single div -->
+              <div
+                class="rounded-[20px] bg-white shadow-primary col-span-2 pl-5 py-3"
+              >
+                <h1
+                  class="text-[40px] leading-[45px] font-[900] text-sb-orange"
+                >
+                  40+
+                </h1>
+                <p class="text-lg text-paragraph">Winning award</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features end  -->
+    <!-- Features 2 start  -->
+    <section class="mt-[60px] lg:mt-[104px] overflow-hidden px-4 xl:px-0">
+      <div class="container grid grid-cols-12 gap-x-[30px]">
+        <h1 class="text-xl text-sb-orange font-bold text-center col-span-12">
+          Our Features
+        </h1>
+        <h2
+          class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mt-[18px] mb-8 lg:mb-[60px] text-center col-span-12"
+        >
+          Mobile Software Solutions <br />
+          for Every Need
+        </h2>
+        <div class="col-span-12 flex flex-col sm:flex-row gap-[30px]">
+          <!-- left side  -->
+          <div
+            class="h-fit lg:h-full flex flex-col lg:flex-row lg:items-center"
+          >
+            <!-- card  -->
+            <div
+              data-aos="fade-down"
+              class="rounded-[20px] bg-white max-w-[520px] px-10 pt-8 pb-10"
+            >
+              <div class="w-full flex justify-center mb-[30px]">
+                <img
+                  src="./assets/img/home-2/encryption-bro.png"
+                  alt=""
+                  class=""
+                />
+              </div>
+              <h1 class="text-2xl font-bold text-heading">Voice Recorder</h1>
+              <p class="text-lg text-paragraph pt-4">
+                Et purus duis sollicitudin dignissim habi tant. Egestas nulla
+                quis venenatis sed massa eu faucibus Urna fusce
+              </p>
+            </div>
+            <!-- card  -->
+            <div
+              data-aos="fade-right"
+              class="rounded-[20px] bg-white max-w-[520px] px-10 pt-8 pb-10 mt-[30px] lg:mt-[284px] hidden sm:block lg:hidden"
+            >
+              <div class="w-full flex justify-center mb-[30px]">
+                <img
+                  src="./assets/img/home-2/inbox-cuate.png"
+                  alt=""
+                  class=""
+                />
+              </div>
+              <h1 class="text-2xl font-bold text-heading">Video Player</h1>
+              <p class="text-lg text-paragraph pt-4">
+                Et purus duis sollicitudin dignissim habi tant. Egestas nulla
+                quis venenatis sed massa eu faucibus Urna fusce
+              </p>
+            </div>
+          </div>
+          <!-- center  -->
+          <img
+            src="./assets/img/home-2/numbering.png"
+            alt=""
+            class="hidden lg:block"
+          />
+          <!-- right Side  -->
+          <div class="">
+            <!-- card  -->
+            <div
+              data-aos="fade-up"
+              class="rounded-[20px] bg-white max-w-[520px] px-10 pt-8 pb-10"
+            >
+              <h1 class="text-2xl font-bold text-heading">Photo Editor</h1>
+              <p class="text-lg text-paragraph pt-4">
+                Et purus duis sollicitudin dignissim habi tant. Egestas nulla
+                quis venenatis sed massa eu faucibus Urna fusce
+              </p>
+              <div class="w-full flex justify-center mt-[30px]">
+                <img
+                  src="./assets/img/home-2/inbox-cuate.png"
+                  alt=""
+                  class=""
+                />
+              </div>
+            </div>
+            <!-- card  -->
+            <div
+              data-aos="fade-up"
+              class="rounded-[20px] bg-white max-w-[520px] px-10 pt-8 pb-10 mt-[30px] lg:mt-[284px] block sm:hidden lg:block"
+            >
+              <div class="w-full flex justify-center mb-[30px]">
+                <img
+                  src="./assets/img/home-2/inbox-cuate.png"
+                  alt=""
+                  class=""
+                />
+              </div>
+              <h1 class="text-2xl font-bold text-heading">Video Player</h1>
+              <p class="text-lg text-paragraph pt-4">
+                Et purus duis sollicitudin dignissim habi tant. Egestas nulla
+                quis venenatis sed massa eu faucibus Urna fusce
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features 2 end  -->
+    <!-- testimonials start  -->
+    <section
+      class="flex flex-col items-center mt-[60px] lg:mt-[120px] px-4 xl:px-0"
+    >
+      <div
+        class="max-w-[1760px] sm:px-2.5 rounded-[20px] w-full relative flex items-center flex-col h-fit"
+      >
+        <img
+          src="./assets/img/home-2/testimonials-bg.png"
+          alt=""
+          class="absolute w-full z-0"
+        />
+        <div class="container pt-[60px] lg:pt-[110px] relative z-10">
+          <h1 class="text-xl text-sb-orange font-bold text-center w-full">
+            Clients Testimonial
+          </h1>
+          <h2
+            class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mt-[18px] mb-8 lg:mb-[70px] text-center w-full"
+          >
+            Mobile Software Solutions <br />
+            for Every Need
+          </h2>
+          <div
+            class="relative w-full flex items-center h-fit max-w-[1070px] mx-auto"
+          >
+            <div class="z-10 absolute w-full h-full max-w-[100vw]">
+              <div
+                id="parallax-mouse"
+                class="lg:flex justify-center items-center hidden"
+              >
+                <img
+                  data-depth="0.20"
+                  src="./assets/img/home-2/ta-1.png"
+                  alt=""
+                  class="absolute z-10 top-0 layer"
+                />
+                <img
+                  data-depth="0.10"
+                  src="./assets/img/home-2/ta-2.png"
+                  alt=""
+                  class="absolute z-10 right-14 -top-3 layer"
+                />
+                <img
+                  data-depth="0.30"
+                  src="./assets/img/home-2/ta-3.png"
+                  alt=""
+                  class="absolute z-10 -left-16 layer"
+                />
+                <img
+                  data-depth="-0.20"
+                  src="./assets/img/home-2/ta-4.png"
+                  alt=""
+                  class="absolute z-10 -left-3 -bottom-0 layer"
+                />
+                <img
+                  data-depth="-0.10"
+                  src="./assets/img/home-2/ta-5.png"
+                  alt=""
+                  class="absolute z-10 bottom-2 right-1/3 layer"
+                />
+                <img
+                  data-depth="-0.30"
+                  src="./assets/img/home-2/ta-6.png"
+                  alt=""
+                  class="absolute z-10 bottom-0 right-0 layer"
+                />
+              </div>
+            </div>
+            <div class="swiper h2-testimonialsSlider">
+              <div class="swiper-wrapper h-[382px]" id="h2-vertical-swiper">
+                <div class="swiper-slide">
+                  <div class="mx-3">
+                    <div
+                      class="rounded-[20px] overflow-hidden bg-white pl-5 pr-10 py-5 lg:pl-20 lg:pr-36 lg:py-16"
+                    >
+                      <div class="flex justify-between w-full">
+                        <div class="">
+                          <h1
+                            class="text-2xl left-10 text-heading font-bold mb-1"
+                          >
+                            Ronald Richards
+                          </h1>
+                          <p class="text-lg text-paragraph">Web Designer</p>
+                        </div>
+                        <svg
+                          width="56"
+                          height="40"
+                          viewBox="0 0 56 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g opacity="0.7">
+                            <mask id="path-1-inside-1_1_11365" fill="white">
+                              <path
+                                d="M56 25.002C56 33.377 49.25 40.002 41 40.002H40C37.75 40.002 36 38.252 36 36.002C36 33.877 37.75 32.002 40 32.002H41C44.75 32.002 48 28.877 48 25.002V24.002H40C35.5 24.002 32 20.502 32 16.002V8.00195C32 3.62695 35.5 0.00195312 40 0.00195312H48C52.375 0.00195312 56 3.62695 56 8.00195V12.002V16.002V25.002ZM24 25.002C24 33.377 17.25 40.002 9 40.002H8C5.75 40.002 4 38.252 4 36.002C4 33.877 5.75 32.002 8 32.002H9C12.75 32.002 16 28.877 16 25.002V24.002H8C3.5 24.002 0 20.502 0 16.002V8.00195C0 3.62695 3.5 0.00195312 8 0.00195312H16C20.375 0.00195312 24 3.62695 24 8.00195V12.002V16.002V25.002Z"
+                              />
+                            </mask>
+                            <path
+                              d="M48 24.002H50V22.002H48V24.002ZM16 24.002H18V22.002H16V24.002ZM54 25.002C54 32.2615 48.1563 38.002 41 38.002V42.002C50.3437 42.002 58 34.4924 58 25.002H54ZM41 38.002H40V42.002H41V38.002ZM40 38.002C38.8546 38.002 38 37.1474 38 36.002H34C34 39.3565 36.6454 42.002 40 42.002V38.002ZM38 36.002C38 34.9408 38.8949 34.002 40 34.002V30.002C36.6051 30.002 34 32.8131 34 36.002H38ZM40 34.002H41V30.002H40V34.002ZM41 34.002C45.8314 34.002 50 30.0046 50 25.002H46C46 27.7493 43.6686 30.002 41 30.002V34.002ZM50 25.002V24.002H46V25.002H50ZM48 22.002H40V26.002H48V22.002ZM40 22.002C36.6046 22.002 34 19.3974 34 16.002H30C30 21.6065 34.3954 26.002 40 26.002V22.002ZM34 16.002V8.00195H30V16.002H34ZM34 8.00195C34 4.71108 36.6249 2.00195 40 2.00195V-1.99805C34.3751 -1.99805 30 2.54282 30 8.00195H34ZM40 2.00195H48V-1.99805H40V2.00195ZM48 2.00195C51.2704 2.00195 54 4.73152 54 8.00195H58C58 2.52238 53.4796 -1.99805 48 -1.99805V2.00195ZM54 8.00195V12.002H58V8.00195H54ZM54 12.002V16.002H58V12.002H54ZM54 16.002V25.002H58V16.002H54ZM22 25.002C22 32.2615 16.1563 38.002 9 38.002V42.002C18.3437 42.002 26 34.4924 26 25.002H22ZM9 38.002H8V42.002H9V38.002ZM8 38.002C6.85457 38.002 6 37.1474 6 36.002H2C2 39.3565 4.64543 42.002 8 42.002V38.002ZM6 36.002C6 34.9408 6.8949 34.002 8 34.002V30.002C4.6051 30.002 2 32.8131 2 36.002H6ZM8 34.002H9V30.002H8V34.002ZM9 34.002C13.8314 34.002 18 30.0046 18 25.002H14C14 27.7493 11.6686 30.002 9 30.002V34.002ZM18 25.002V24.002H14V25.002H18ZM16 22.002H8V26.002H16V22.002ZM8 22.002C4.60457 22.002 2 19.3974 2 16.002H-2C-2 21.6065 2.39543 26.002 8 26.002V22.002ZM2 16.002V8.00195H-2V16.002H2ZM2 8.00195C2 4.71108 4.6249 2.00195 8 2.00195V-1.99805C2.3751 -1.99805 -2 2.54282 -2 8.00195H2ZM8 2.00195H16V-1.99805H8V2.00195ZM16 2.00195C19.2704 2.00195 22 4.73152 22 8.00195H26C26 2.52238 21.4796 -1.99805 16 -1.99805V2.00195ZM22 8.00195V12.002H26V8.00195H22ZM22 12.002V16.002H26V12.002H22ZM22 16.002V25.002H26V16.002H22Z"
+                              fill="#EC4814"
+                              mask="url(#path-1-inside-1_1_11365)"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+
+                      <p class="text-xl text-paragraph mt-8">
+                        Financial planners help people to gain knowledge aboutw
+                        toio invest and save their money in the most efficient
+                        way ever. Many people all of u across the coun us them
+                        Financial planners help of people Financial know
+                        planners help people Financial planners help people to
+                        gain knowledge an aboutw toio invest and save their
+                        money in the most dsign by man
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="mx-3">
+                    <div
+                      class="rounded-[20px] overflow-hidden bg-white pl-5 pr-10 py-5 lg:pl-20 lg:pr-36 lg:py-16"
+                    >
+                      <div class="flex justify-between w-full">
+                        <div class="">
+                          <h1
+                            class="text-2xl left-10 text-heading font-bold mb-1"
+                          >
+                            Ronald Richards
+                          </h1>
+                          <p class="text-lg text-paragraph">Web Designer</p>
+                        </div>
+                        <svg
+                          width="56"
+                          height="40"
+                          viewBox="0 0 56 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g opacity="0.7">
+                            <mask id="path-1-inside-1_1_11365" fill="white">
+                              <path
+                                d="M56 25.002C56 33.377 49.25 40.002 41 40.002H40C37.75 40.002 36 38.252 36 36.002C36 33.877 37.75 32.002 40 32.002H41C44.75 32.002 48 28.877 48 25.002V24.002H40C35.5 24.002 32 20.502 32 16.002V8.00195C32 3.62695 35.5 0.00195312 40 0.00195312H48C52.375 0.00195312 56 3.62695 56 8.00195V12.002V16.002V25.002ZM24 25.002C24 33.377 17.25 40.002 9 40.002H8C5.75 40.002 4 38.252 4 36.002C4 33.877 5.75 32.002 8 32.002H9C12.75 32.002 16 28.877 16 25.002V24.002H8C3.5 24.002 0 20.502 0 16.002V8.00195C0 3.62695 3.5 0.00195312 8 0.00195312H16C20.375 0.00195312 24 3.62695 24 8.00195V12.002V16.002V25.002Z"
+                              />
+                            </mask>
+                            <path
+                              d="M48 24.002H50V22.002H48V24.002ZM16 24.002H18V22.002H16V24.002ZM54 25.002C54 32.2615 48.1563 38.002 41 38.002V42.002C50.3437 42.002 58 34.4924 58 25.002H54ZM41 38.002H40V42.002H41V38.002ZM40 38.002C38.8546 38.002 38 37.1474 38 36.002H34C34 39.3565 36.6454 42.002 40 42.002V38.002ZM38 36.002C38 34.9408 38.8949 34.002 40 34.002V30.002C36.6051 30.002 34 32.8131 34 36.002H38ZM40 34.002H41V30.002H40V34.002ZM41 34.002C45.8314 34.002 50 30.0046 50 25.002H46C46 27.7493 43.6686 30.002 41 30.002V34.002ZM50 25.002V24.002H46V25.002H50ZM48 22.002H40V26.002H48V22.002ZM40 22.002C36.6046 22.002 34 19.3974 34 16.002H30C30 21.6065 34.3954 26.002 40 26.002V22.002ZM34 16.002V8.00195H30V16.002H34ZM34 8.00195C34 4.71108 36.6249 2.00195 40 2.00195V-1.99805C34.3751 -1.99805 30 2.54282 30 8.00195H34ZM40 2.00195H48V-1.99805H40V2.00195ZM48 2.00195C51.2704 2.00195 54 4.73152 54 8.00195H58C58 2.52238 53.4796 -1.99805 48 -1.99805V2.00195ZM54 8.00195V12.002H58V8.00195H54ZM54 12.002V16.002H58V12.002H54ZM54 16.002V25.002H58V16.002H54ZM22 25.002C22 32.2615 16.1563 38.002 9 38.002V42.002C18.3437 42.002 26 34.4924 26 25.002H22ZM9 38.002H8V42.002H9V38.002ZM8 38.002C6.85457 38.002 6 37.1474 6 36.002H2C2 39.3565 4.64543 42.002 8 42.002V38.002ZM6 36.002C6 34.9408 6.8949 34.002 8 34.002V30.002C4.6051 30.002 2 32.8131 2 36.002H6ZM8 34.002H9V30.002H8V34.002ZM9 34.002C13.8314 34.002 18 30.0046 18 25.002H14C14 27.7493 11.6686 30.002 9 30.002V34.002ZM18 25.002V24.002H14V25.002H18ZM16 22.002H8V26.002H16V22.002ZM8 22.002C4.60457 22.002 2 19.3974 2 16.002H-2C-2 21.6065 2.39543 26.002 8 26.002V22.002ZM2 16.002V8.00195H-2V16.002H2ZM2 8.00195C2 4.71108 4.6249 2.00195 8 2.00195V-1.99805C2.3751 -1.99805 -2 2.54282 -2 8.00195H2ZM8 2.00195H16V-1.99805H8V2.00195ZM16 2.00195C19.2704 2.00195 22 4.73152 22 8.00195H26C26 2.52238 21.4796 -1.99805 16 -1.99805V2.00195ZM22 8.00195V12.002H26V8.00195H22ZM22 12.002V16.002H26V12.002H22ZM22 16.002V25.002H26V16.002H22Z"
+                              fill="#EC4814"
+                              mask="url(#path-1-inside-1_1_11365)"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+
+                      <p class="text-xl text-paragraph mt-8">
+                        Financial planners help people to gain knowledge aboutw
+                        toio invest and save their money in the most efficient
+                        way ever. Many people all of u across the coun us them
+                        Financial planners help of people Financial know
+                        planners help people Financial planners help people to
+                        gain knowledge an aboutw toio invest and save their
+                        money in the most dsign by man
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="mx-3">
+                    <div
+                      class="rounded-[20px] overflow-hidden bg-white pl-5 pr-10 py-5 lg:pl-20 lg:pr-36 lg:py-16"
+                    >
+                      <div class="flex justify-between w-full">
+                        <div class="">
+                          <h1
+                            class="text-2xl left-10 text-heading font-bold mb-1"
+                          >
+                            Ronald Richards
+                          </h1>
+                          <p class="text-lg text-paragraph">Web Designer</p>
+                        </div>
+                        <svg
+                          width="56"
+                          height="40"
+                          viewBox="0 0 56 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g opacity="0.7">
+                            <mask id="path-1-inside-1_1_11365" fill="white">
+                              <path
+                                d="M56 25.002C56 33.377 49.25 40.002 41 40.002H40C37.75 40.002 36 38.252 36 36.002C36 33.877 37.75 32.002 40 32.002H41C44.75 32.002 48 28.877 48 25.002V24.002H40C35.5 24.002 32 20.502 32 16.002V8.00195C32 3.62695 35.5 0.00195312 40 0.00195312H48C52.375 0.00195312 56 3.62695 56 8.00195V12.002V16.002V25.002ZM24 25.002C24 33.377 17.25 40.002 9 40.002H8C5.75 40.002 4 38.252 4 36.002C4 33.877 5.75 32.002 8 32.002H9C12.75 32.002 16 28.877 16 25.002V24.002H8C3.5 24.002 0 20.502 0 16.002V8.00195C0 3.62695 3.5 0.00195312 8 0.00195312H16C20.375 0.00195312 24 3.62695 24 8.00195V12.002V16.002V25.002Z"
+                              />
+                            </mask>
+                            <path
+                              d="M48 24.002H50V22.002H48V24.002ZM16 24.002H18V22.002H16V24.002ZM54 25.002C54 32.2615 48.1563 38.002 41 38.002V42.002C50.3437 42.002 58 34.4924 58 25.002H54ZM41 38.002H40V42.002H41V38.002ZM40 38.002C38.8546 38.002 38 37.1474 38 36.002H34C34 39.3565 36.6454 42.002 40 42.002V38.002ZM38 36.002C38 34.9408 38.8949 34.002 40 34.002V30.002C36.6051 30.002 34 32.8131 34 36.002H38ZM40 34.002H41V30.002H40V34.002ZM41 34.002C45.8314 34.002 50 30.0046 50 25.002H46C46 27.7493 43.6686 30.002 41 30.002V34.002ZM50 25.002V24.002H46V25.002H50ZM48 22.002H40V26.002H48V22.002ZM40 22.002C36.6046 22.002 34 19.3974 34 16.002H30C30 21.6065 34.3954 26.002 40 26.002V22.002ZM34 16.002V8.00195H30V16.002H34ZM34 8.00195C34 4.71108 36.6249 2.00195 40 2.00195V-1.99805C34.3751 -1.99805 30 2.54282 30 8.00195H34ZM40 2.00195H48V-1.99805H40V2.00195ZM48 2.00195C51.2704 2.00195 54 4.73152 54 8.00195H58C58 2.52238 53.4796 -1.99805 48 -1.99805V2.00195ZM54 8.00195V12.002H58V8.00195H54ZM54 12.002V16.002H58V12.002H54ZM54 16.002V25.002H58V16.002H54ZM22 25.002C22 32.2615 16.1563 38.002 9 38.002V42.002C18.3437 42.002 26 34.4924 26 25.002H22ZM9 38.002H8V42.002H9V38.002ZM8 38.002C6.85457 38.002 6 37.1474 6 36.002H2C2 39.3565 4.64543 42.002 8 42.002V38.002ZM6 36.002C6 34.9408 6.8949 34.002 8 34.002V30.002C4.6051 30.002 2 32.8131 2 36.002H6ZM8 34.002H9V30.002H8V34.002ZM9 34.002C13.8314 34.002 18 30.0046 18 25.002H14C14 27.7493 11.6686 30.002 9 30.002V34.002ZM18 25.002V24.002H14V25.002H18ZM16 22.002H8V26.002H16V22.002ZM8 22.002C4.60457 22.002 2 19.3974 2 16.002H-2C-2 21.6065 2.39543 26.002 8 26.002V22.002ZM2 16.002V8.00195H-2V16.002H2ZM2 8.00195C2 4.71108 4.6249 2.00195 8 2.00195V-1.99805C2.3751 -1.99805 -2 2.54282 -2 8.00195H2ZM8 2.00195H16V-1.99805H8V2.00195ZM16 2.00195C19.2704 2.00195 22 4.73152 22 8.00195H26C26 2.52238 21.4796 -1.99805 16 -1.99805V2.00195ZM22 8.00195V12.002H26V8.00195H22ZM22 12.002V16.002H26V12.002H22ZM22 16.002V25.002H26V16.002H22Z"
+                              fill="#EC4814"
+                              mask="url(#path-1-inside-1_1_11365)"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+
+                      <p class="text-xl text-paragraph mt-8">
+                        Financial planners help people to gain knowledge aboutw
+                        toio invest and save their money in the most efficient
+                        way ever. Many people all of u across the coun us them
+                        Financial planners help of people Financial know
+                        planners help people Financial planners help people to
+                        gain knowledge an aboutw toio invest and save their
+                        money in the most dsign by man
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- navigation button  -->
+            <div
+              class="flex gap-[30px] w-fit justify-center pt-8 lg:pt-14 absolute z-10 rotate-90 -right-16"
+            >
+              <img
+                src="./assets/img/icon/left-arrow-b.svg"
+                alt=""
+                class="scale-x-90 hover:scale-x-110 transition-transform origin-right duration-300 cursor-pointer testimonial-slider-prev"
+              />
+              <img
+                src="./assets/img/icon/right-arrow-b.svg"
+                alt=""
+                class="scale-x-90 hover:scale-x-110 transition-transform origin-left duration-300 cursor-pointer testimonial-slider-next"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials end  -->
+    <!-- pricing start  -->
+    <section class="mt-[60px] lg:mt-[120px] overflow-hidden px-4 xl:px-0">
+      <div class="container">
+        <h1 class="text-xl text-sb-orange font-bold">visit our shop</h1>
+        <div class="flex flex-col md:flex-row justify-between">
+          <h2
+            class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mt-[18px] mb-8 lg:mb-[60px] w-fit"
+          >
+            Unleash power of mobile <br />
+            your life easier
+          </h2>
+
+          <p class="text-lg text-paragraph max-w-[410px] flex-1">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit platea
+            pharetra, nostra mtis hendrerit proin mollis pretium facilisi in,
+            ligula volutpat lobortis
+          </p>
+        </div>
+
+        <div class="grid grid-cols-12 gap-[30px] mt-8 md:mt-0">
+          <!-- pricing card  -->
+          <div
+            data-aos="fade-right"
+            class="col-span-12 sm:col-span-6 lg:col-span-4 p-10 shadow-primary bg-white rounded-[20px] group h-fit transition-all duration-300"
+          >
+            <h1 class="text-heading text-[32px] leading-[44px] font-[900]">
+              Basic
+            </h1>
+            <p class="text-paragraph text-lg mt-1">month</p>
+            <h2 class="text-heading text-[40px] leading-[44px] font-[900] mt-3">
+              $50
+            </h2>
+            <ul class="mt-[30px]">
+              <li class="flex gap-4 items-center h-fit text-lg text-paragraph">
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+
+                Mistakes To Avoid
+              </li>
+              <li
+                class="flex gap-4 items-center h-fit text-lg text-paragraph mt-4"
+              >
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+
+                Your Startup
+              </li>
+              <li
+                class="flex gap-4 items-center h-fit text-lg text-paragraph mt-4"
+              >
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+
+                Knew About Fonts
+              </li>
+
+              <li
+                class="flex gap-4 items-center h-fit text-lg text-paragraph mt-4"
+              >
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+                Winning Metric for Your Startup
+              </li>
+            </ul>
+            <div
+              class="h-0 overflow-hidden group-hover:h-[100px] transition-all duration-300"
+            >
+              <div class="bg-btn-wrapper group mt-10">
+                <a
+                  class="bg-btn flex h-fit items-center gap-2.5 justify-center"
+                  href="#"
+                >
+                  Start now
+                  <svg
+                    class="group-hover:scale-x-125 origin-bottom-left"
+                    width="11"
+                    height="8"
+                    viewBox="0 0 11 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.8536 4.35355C11.0488 4.15829 11.0488 3.84171
+                10.8536 3.64645L7.67157 0.464467C7.47631 0.269205 7.15973
+                0.269204 6.96447 0.464467C6.7692 0.659729 6.7692 0.976311
+                6.96447 1.17157L9.79289 4L6.96447 6.82843C6.7692 7.02369 6.7692
+                7.34027 6.96447 7.53553C7.15973 7.7308 7.47631 7.7308 7.67157
+                7.53553L10.8536 4.35355ZM0.5 4.5L10.5 4.5L10.5 3.5L0.5 3.5L0.5
+                4.5Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- pricing card  -->
+          <div
+            data-aos="fade-up"
+            class="col-span-12 sm:col-span-6 lg:col-span-4 p-10 shadow-primary bg-sb-orange rounded-[20px] h-fit transition-all duration-300 group"
+          >
+            <h1 class="text-white text-[32px] leading-[44px] font-[900]">
+              Consult
+            </h1>
+            <p class="text-white text-lg mt-1">month</p>
+            <h2 class="text-white text-[40px] leading-[44px] font-[900] mt-3">
+              $45
+            </h2>
+
+            <ul class="mt-[30px]">
+              <li class="flex gap-4 items-center h-fit text-lg text-white">
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="white"
+                  />
+                </svg>
+                Mistakes To Avoid
+              </li>
+              <li class="flex gap-4 items-center h-fit text-lg text-white mt-4">
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="white"
+                  />
+                </svg>
+                Your Startup
+              </li>
+              <li class="flex gap-4 items-center h-fit text-lg text-white mt-4">
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="white"
+                  />
+                </svg>
+                Knew About Fonts
+              </li>
+
+              <li class="flex gap-4 items-center h-fit text-lg text-white mt-4">
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="white"
+                  />
+                </svg>
+                Winning Metric for Your Startup
+              </li>
+            </ul>
+            <div class="overflow-hidden transition-all duration-300">
+              <div class="border-btn-wrapper mt-10 group/item">
+                <a
+                  class="border-btn flex h-fit items-center gap-2.5 justify-center bg-white group-hover/item:text-sb-orange"
+                  href="#"
+                >
+                  Start now
+                  <svg
+                    class="group-hover/item:scale-x-125 origin-bottom-left"
+                    width="11"
+                    height="8"
+                    viewBox="0 0 11 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.8536 4.35355C11.0488 4.15829 11.0488 3.84171
+                  10.8536 3.64645L7.67157 0.464467C7.47631 0.269205 7.15973
+                  0.269204 6.96447 0.464467C6.7692 0.659729 6.7692 0.976311
+                  6.96447 1.17157L9.79289 4L6.96447 6.82843C6.7692 7.02369 6.7692
+                  7.34027 6.96447 7.53553C7.15973 7.7308 7.47631 7.7308 7.67157
+                  7.53553L10.8536 4.35355ZM0.5 4.5L10.5 4.5L10.5 3.5L0.5 3.5L0.5
+                  4.5Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- pricing card  -->
+          <div
+            data-aos="fade-left"
+            class="col-span-12 sm:col-span-6 lg:col-span-4 p-10 shadow-primary bg-white rounded-[20px] group h-fit transition-all duration-300"
+          >
+            <h1 class="text-heading text-[32px] leading-[44px] font-[900]">
+              Pro
+            </h1>
+            <p class="text-paragraph text-lg mt-1">month</p>
+            <h2 class="text-heading text-[40px] leading-[44px] font-[900] mt-3">
+              $52
+            </h2>
+            <ul class="mt-[30px]">
+              <li class="flex gap-4 items-center h-fit text-lg text-paragraph">
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+
+                Mistakes To Avoid
+              </li>
+              <li
+                class="flex gap-4 items-center h-fit text-lg text-paragraph mt-4"
+              >
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+
+                Your Startup
+              </li>
+              <li
+                class="flex gap-4 items-center h-fit text-lg text-paragraph mt-4"
+              >
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+
+                Knew About Fonts
+              </li>
+
+              <li
+                class="flex gap-4 items-center h-fit text-lg text-paragraph mt-4"
+              >
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                    fill="#0E191E"
+                  />
+                </svg>
+                Winning Metric for Your Startup
+              </li>
+            </ul>
+            <div
+              class="h-0 overflow-hidden group-hover:h-[100px] transition-all duration-300"
+            >
+              <div class="bg-btn-wrapper group mt-10">
+                <a
+                  class="bg-btn flex h-fit items-center gap-2.5 justify-center"
+                  href="#"
+                >
+                  Start now
+                  <svg
+                    class="group-hover:scale-x-125 origin-bottom-left"
+                    width="11"
+                    height="8"
+                    viewBox="0 0 11 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.8536 4.35355C11.0488 4.15829 11.0488 3.84171
+              10.8536 3.64645L7.67157 0.464467C7.47631 0.269205 7.15973
+              0.269204 6.96447 0.464467C6.7692 0.659729 6.7692 0.976311
+              6.96447 1.17157L9.79289 4L6.96447 6.82843C6.7692 7.02369 6.7692
+              7.34027 6.96447 7.53553C7.15973 7.7308 7.47631 7.7308 7.67157
+              7.53553L10.8536 4.35355ZM0.5 4.5L10.5 4.5L10.5 3.5L0.5 3.5L0.5
+              4.5Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing end  -->
+
+    <!-- Faq start  -->
+    <section class="mt-[60px] lg:mt-[120px] overflow-hidden px-4 xl:px-0">
+      <dev class="container grid grid-cols-12">
+        <h1 class="text-xl text-sb-orange font-bold text-center col-span-12">
+          Faq
+        </h1>
+        <h2
+          class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mt-[18px] mb-[60px] text-center col-span-12"
+        >
+          Apps that bring the <br />
+          you convenience
+        </h2>
+
+        <div class="col-span-12 grid grid-cols-6 lg:grid-cols-12 gap-[30px]">
+          <!-- Left Side  -->
+          <div
+            data-aos="fade-right"
+            class="col-span-6 rounded-[20px] bg-white shadow-primary gap-7 flex items-center flex-wrap sm:flex-row justify-center h-fit border border-heading overflow-hidden py-[22px]"
+          >
+            <img
+              src="./assets/img/home-2/faq-1.png"
+              alt=""
+              class="shadow-card-shadow"
+            />
+            <img
+              src="./assets/img/home-2/faq-2.png"
+              alt=""
+              class="shadow-card-shadow"
+            />
+            <img
+              src="./assets/img/home-2/faq-3.png"
+              alt=""
+              class="shadow-card-shadow"
+            />
+          </div>
+          <!-- Right Side  -->
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            class="col-span-6 bg-transparent flex flex-col h2-faq-wrapper"
+          >
+            <!-- single card -->
+            <div
+              class="bg-white mb-5 faq-toggler overflow-hidden transition-all duration-300"
+            >
+              <h1
+                class="flex h-fit items-center gap-5 p-5 rounded-[5px] bg-white pointer-events-none"
+              >
+                <span
+                  class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl"
+                >
+                  <span class="plus">+</span>
+                  <span class="scale-x-125 minuse hidden">-</span>
+                </span>
+                <span class="text-lg font-bold flex-1"
+                  >What is physical therapy?</span
+                >
+              </h1>
+              <!-- Description  -->
+              <p
+                class="p-5 rounded-b-md bg-white text-paragraph text-lg pointer-events-none"
+              >
+                It is a long established fact that a reader will be distr acted
+                bioiiy the rea dablea content of a page when looking at its
+                layout Thoiie point of using.It is a long this established fact
+                that a reader
+              </p>
+            </div>
+            <!-- single card -->
+            <div
+              class="bg-white mb-5 faq-toggler overflow-hidden transition-all duration-300"
+            >
+              <h1
+                class="flex h-fit items-center gap-5 p-5 rounded-[5px] bg-white pointer-events-none"
+              >
+                <span
+                  class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl"
+                >
+                  <span class="plus">+</span>
+                  <span class="scale-x-125 minuse hidden">-</span>
+                </span>
+                <span class="text-lg font-bold flex-1"
+                  >How to Elevate Your Mobile Experience?</span
+                >
+              </h1>
+              <!-- Description  -->
+              <p
+                class="p-5 rounded-b-md bg-white text-paragraph text-lg pointer-events-none"
+              >
+                It is a long established fact that a reader will be distr acted
+                bioiiy the rea dablea content of a page when looking at its
+                layout Thoiie point of using.It is a long this established fact
+                that a reader
+              </p>
+            </div>
+            <!-- single card -->
+            <div
+              class="bg-white mb-5 faq-toggler overflow-hidden transition-all duration-300"
+            >
+              <h1
+                class="flex h-fit items-center gap-5 p-5 rounded-[5px] bg-white pointer-events-none"
+              >
+                <span
+                  class="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-sb-orange text-white text-2xl"
+                >
+                  <span class="plus">+</span>
+                  <span class="scale-x-125 minuse hidden">-</span>
+                </span>
+                <span class="text-lg font-bold flex-1"
+                  >why the Mobile Software Landscape?</span
+                >
+              </h1>
+              <!-- Description  -->
+              <p
+                class="p-5 rounded-b-md bg-white text-paragraph text-lg pointer-events-none"
+              >
+                It is a long established fact that a reader will be distr acted
+                bioiiy the rea dablea content of a page when looking at its
+                layout Thoiie point of using.It is a long this established fact
+                that a reader
+              </p>
+            </div>
+          </div>
+        </div>
+      </dev>
+    </section>
+    <!-- Faq end  -->
+
+    <!-- cta start  -->
+    <section class="mt-[100px] lg:mt-[160px] px-4 xl:px-0">
+      <dev class="container grid grid-cols-12">
+        <div
+          class="col-span-12 grid grid-cols-4 md:grid-cols-12 gap-[30px] bg-white rounded-[20px]"
+        >
+          <!-- Left Side  -->
+          <div data-aos="fade-right" class="col-span-4 md:col-span-5">
+            <div class="flex justify-end relative">
+              <img
+                src="./assets/img/home-2/cta.png"
+                alt=""
+                class="lg:absolute -top-[90px]"
+              />
+            </div>
+          </div>
+          <!-- Right Side  -->
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            class="col-span-4 md:col-span-7 bg-transparent flex flex-col h2-faq-wrapper py-16"
+          >
+            <h1
+              class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mb-1 max-w-[482px]"
+            >
+              Subscribe to Our Newsletter
+            </h1>
+            <p class="text-lg text-paragraph max-w-[495px]">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+            <div
+              class="flex flex-col sm:flex-row gap-2.5 w-full max-w-[573px] mt-8"
+            >
+              <input
+                type="text"
+                class="flex-1 border border-heading rounded-full px-[30px] bg-[#FFFAF0] outline-none focus:outline-none min-h-[56px]"
+                placeholder="Enter Your Email "
+              />
+              <div class="bg-btn-wrapper group">
+                <a
+                  class="bg-btn flex h-fit items-center gap-2.5 justify-center px-7 py-5 uppercase"
+                  href="#"
+                >
+                  Subscribe Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </dev>
+    </section>
+    <!-- cta end  -->
+    <!-- mobile screen start  -->
+    <section
+      class="mt-[60px] lg:mt-[120px] overflow-hidden px-4 2xl:px-0 max-w-[1620px] mx-auto"
+    >
+      <div class="swiper ms-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-1.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-2.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-3.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-4.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-5.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-6.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-7.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/home-2/ms-8.png"
+              alt=""
+              class="w-full mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mobile screen end  -->
+    <!-- blog start  -->
+    <section class="mt-[60px] lg:mt-[120px] bg-no-repeat bg-cover px-4 xl:px-0">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-x-[30px]">
+          <h1 class="text-xl text-sb-orange font-bold text-center col-span-12">
+            Our Blogs
+          </h1>
+          <h2
+            class="text-heading font-[900] text-3xl lg:text-[40px] leading-[45px] mt-[18px] mb-[60px] text-center col-span-12"
+          >
+            Boost Your Business with <br />
+            Digital most Marketing
+          </h2>
+          <div class="col-span-12 grid grid-cols-12 gap-[30px]">
+            <!-- blog card  -->
+
+            <div
+              data-aos="fade-up"
+              class="col-span-12 sm:col-span-6 lg:col-span-4 rounded-[20px] overflow-hidden transition-all duration-300 relative after:block after:w-0 after:h-0 hover:after:w-full hover:after:h-full after:bg-sb-orange after:absolute after:top-0 after:left-0 after:transition-all after:duration-500 before:block before:w-0 before:h-0 hover:before:w-full hover:before:h-full before:bg-sb-orange before:absolute before:bottom-0 before:right-0 before:transition-all before:duration-500"
+            >
+              <div
+                class="col-span-12 sm:col-span-6 lg:col-span-4 bg-white rounded-[20px] overflow-hidden m-[1px] relative z-10"
+              >
+                <div
+                  class="w-full bg-[#FFF1ED] py-5 h-[277px] flex items-center"
+                >
+                  <img
+                    src="./assets/img/home-2/blog-1.png"
+                    alt=""
+                    class="mx-auto"
+                  />
+                </div>
+                <div class="px-10 pb-8">
+                  <div class="flex justify-between h-fit items-center mt-5">
+                    <p
+                      class="flex h-fit items-center text-paragraph text-lg gap-2.5"
+                    >
+                      <svg
+                        width="11"
+                        height="13"
+                        viewBox="0 0 11 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3.5625 2H6.9375V1.0625C6.9375 0.757812 7.17188 0.5 7.5 0.5C7.80469 0.5 8.0625 0.757812 8.0625 1.0625V2H9C9.82031 2 10.5 2.67969 10.5 3.5V11C10.5 11.8438 9.82031 12.5 9 12.5H1.5C0.65625 12.5 0 11.8438 0 11V3.5C0 2.67969 0.65625 2 1.5 2H2.4375V1.0625C2.4375 0.757812 2.67188 0.5 3 0.5C3.30469 0.5 3.5625 0.757812 3.5625 1.0625V2ZM1.125 6.3125H3V5H1.125V6.3125ZM1.125 7.4375V8.9375H3V7.4375H1.125ZM4.125 7.4375V8.9375H6.375V7.4375H4.125ZM7.5 7.4375V8.9375H9.375V7.4375H7.5ZM9.375 5H7.5V6.3125H9.375V5ZM9.375 10.0625H7.5V11.375H9C9.1875 11.375 9.375 11.2109 9.375 11V10.0625ZM6.375 10.0625H4.125V11.375H6.375V10.0625ZM3 10.0625H1.125V11C1.125 11.2109 1.28906 11.375 1.5 11.375H3V10.0625ZM6.375 5H4.125V6.3125H6.375V5Z"
+                          fill="#EC4814"
+                        />
+                      </svg>
+                      October 19, 2022
+                    </p>
+                    <p
+                      class="flex h-fit items-center text-paragraph text-lg gap-2.5"
+                    >
+                      <svg
+                        width="11"
+                        height="13"
+                        viewBox="0 0 11 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6.375 7.625C8.64844 7.625 10.5 9.47656 10.5 11.75C10.5 12.1719 10.1484 12.5 9.75 12.5H0.75C0.328125 12.5 0 12.1719 0 11.75C0 9.47656 1.82812 7.625 4.125 7.625H6.375ZM1.125 11.375H9.35156C9.16406 9.89844 7.89844 8.75 6.375 8.75H4.125C2.57812 8.75 1.3125 9.89844 1.125 11.375ZM5.25 6.5C3.58594 6.5 2.25 5.16406 2.25 3.5C2.25 1.85938 3.58594 0.5 5.25 0.5C6.89062 0.5 8.25 1.85938 8.25 3.5C8.25 5.16406 6.89062 6.5 5.25 6.5ZM5.25 1.625C4.19531 1.625 3.375 2.46875 3.375 3.5C3.375 4.55469 4.19531 5.375 5.25 5.375C6.28125 5.375 7.125 4.55469 7.125 3.5C7.125 2.46875 6.28125 1.625 5.25 1.625Z"
+                          fill="#EC4814"
+                        />
+                      </svg>
+
+                      Mesbah
+                    </p>
+                  </div>
+                  <h1 class="text-heading text-2xl font-bold mt-2.5 pb-[30px]">
+                    Inspire meets brands with digital technology
+                  </h1>
+                  <a
+                    href="blog-details.html"
+                    class="flex h-fit items-center gap-2.5 text-base font-bold text-sb-orange relative before:block before:w-full before:h-full before:border-b before:border-sb-orange before:absolute w-fit before:ease-out before:origin-right hover:before:origin-left before:transition-transform before:duration-300 before:scale-x-0 hover:before:scale-x-100 group"
+                  >
+                    Read More
+                    <svg
+                      class="group-hover:scale-x-125 origin-left transition-transform duration-300"
+                      width="15"
+                      height="13"
+                      viewBox="0 0 15 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- blog card  -->
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              class="col-span-12 sm:col-span-6 lg:col-span-4 rounded-[20px] overflow-hidden transition-all duration-300 relative after:block after:w-0 after:h-0 hover:after:w-full hover:after:h-full after:bg-sb-orange after:absolute after:top-0 after:left-0 after:transition-all after:duration-500 before:block before:w-0 before:h-0 hover:before:w-full hover:before:h-full before:bg-sb-orange before:absolute before:bottom-0 before:right-0 before:transition-all before:duration-500"
+            >
+              <div
+                class="col-span-12 sm:col-span-6 lg:col-span-4 bg-white rounded-[20px] overflow-hidden m-[1px] relative z-10"
+              >
+                <div
+                  class="w-full bg-[#FFF1ED] py-5 h-[277px] flex items-center"
+                >
+                  <img
+                    src="./assets/img/home-2/blog-2.png"
+                    alt=""
+                    class="mx-auto"
+                  />
+                </div>
+                <div class="px-10 pb-8">
+                  <div class="flex justify-between h-fit items-center mt-5">
+                    <p
+                      class="flex h-fit items-center text-paragraph text-lg gap-2.5"
+                    >
+                      <svg
+                        width="11"
+                        height="13"
+                        viewBox="0 0 11 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3.5625 2H6.9375V1.0625C6.9375 0.757812 7.17188 0.5 7.5 0.5C7.80469 0.5 8.0625 0.757812 8.0625 1.0625V2H9C9.82031 2 10.5 2.67969 10.5 3.5V11C10.5 11.8438 9.82031 12.5 9 12.5H1.5C0.65625 12.5 0 11.8438 0 11V3.5C0 2.67969 0.65625 2 1.5 2H2.4375V1.0625C2.4375 0.757812 2.67188 0.5 3 0.5C3.30469 0.5 3.5625 0.757812 3.5625 1.0625V2ZM1.125 6.3125H3V5H1.125V6.3125ZM1.125 7.4375V8.9375H3V7.4375H1.125ZM4.125 7.4375V8.9375H6.375V7.4375H4.125ZM7.5 7.4375V8.9375H9.375V7.4375H7.5ZM9.375 5H7.5V6.3125H9.375V5ZM9.375 10.0625H7.5V11.375H9C9.1875 11.375 9.375 11.2109 9.375 11V10.0625ZM6.375 10.0625H4.125V11.375H6.375V10.0625ZM3 10.0625H1.125V11C1.125 11.2109 1.28906 11.375 1.5 11.375H3V10.0625ZM6.375 5H4.125V6.3125H6.375V5Z"
+                          fill="#EC4814"
+                        />
+                      </svg>
+                      October 19, 2022
+                    </p>
+                    <p
+                      class="flex h-fit items-center text-paragraph text-lg gap-2.5"
+                    >
+                      <svg
+                        width="11"
+                        height="13"
+                        viewBox="0 0 11 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6.375 7.625C8.64844 7.625 10.5 9.47656 10.5 11.75C10.5 12.1719 10.1484 12.5 9.75 12.5H0.75C0.328125 12.5 0 12.1719 0 11.75C0 9.47656 1.82812 7.625 4.125 7.625H6.375ZM1.125 11.375H9.35156C9.16406 9.89844 7.89844 8.75 6.375 8.75H4.125C2.57812 8.75 1.3125 9.89844 1.125 11.375ZM5.25 6.5C3.58594 6.5 2.25 5.16406 2.25 3.5C2.25 1.85938 3.58594 0.5 5.25 0.5C6.89062 0.5 8.25 1.85938 8.25 3.5C8.25 5.16406 6.89062 6.5 5.25 6.5ZM5.25 1.625C4.19531 1.625 3.375 2.46875 3.375 3.5C3.375 4.55469 4.19531 5.375 5.25 5.375C6.28125 5.375 7.125 4.55469 7.125 3.5C7.125 2.46875 6.28125 1.625 5.25 1.625Z"
+                          fill="#EC4814"
+                        />
+                      </svg>
+
+                      Mesbah
+                    </p>
+                  </div>
+                  <h1 class="text-heading text-2xl font-bold mt-2.5 pb-[30px]">
+                    Inspire meets brands with digital technology
+                  </h1>
+                  <a
+                    href="blog-details.html"
+                    class="flex h-fit items-center gap-2.5 text-base font-bold text-sb-orange relative before:block before:w-full before:h-full before:border-b before:border-sb-orange before:absolute w-fit before:ease-out before:origin-right hover:before:origin-left before:transition-transform before:duration-300 before:scale-x-0 hover:before:scale-x-100 group"
+                  >
+                    Read More
+                    <svg
+                      class="group-hover:scale-x-125 origin-left transition-transform duration-300"
+                      width="15"
+                      height="13"
+                      viewBox="0 0 15 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- blog card  -->
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="col-span-12 sm:col-span-6 lg:col-span-4 rounded-[20px] overflow-hidden transition-all duration-300 relative after:block after:w-0 after:h-0 hover:after:w-full hover:after:h-full after:bg-sb-orange after:absolute after:top-0 after:left-0 after:transition-all after:duration-500 before:block before:w-0 before:h-0 hover:before:w-full hover:before:h-full before:bg-sb-orange before:absolute before:bottom-0 before:right-0 before:transition-all before:duration-500"
+            >
+              <div
+                class="col-span-12 sm:col-span-6 lg:col-span-4 bg-white rounded-[20px] overflow-hidden m-[1px] relative z-10"
+              >
+                <div
+                  class="w-full bg-[#FFF1ED] py-5 h-[277px] flex items-center"
+                >
+                  <img
+                    src="./assets/img/home-2/blog-3.png"
+                    alt=""
+                    class="mx-auto"
+                  />
+                </div>
+                <div class="px-10 pb-8">
+                  <div class="flex justify-between h-fit items-center mt-5">
+                    <p
+                      class="flex h-fit items-center text-paragraph text-lg gap-2.5"
+                    >
+                      <svg
+                        width="11"
+                        height="13"
+                        viewBox="0 0 11 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3.5625 2H6.9375V1.0625C6.9375 0.757812 7.17188 0.5 7.5 0.5C7.80469 0.5 8.0625 0.757812 8.0625 1.0625V2H9C9.82031 2 10.5 2.67969 10.5 3.5V11C10.5 11.8438 9.82031 12.5 9 12.5H1.5C0.65625 12.5 0 11.8438 0 11V3.5C0 2.67969 0.65625 2 1.5 2H2.4375V1.0625C2.4375 0.757812 2.67188 0.5 3 0.5C3.30469 0.5 3.5625 0.757812 3.5625 1.0625V2ZM1.125 6.3125H3V5H1.125V6.3125ZM1.125 7.4375V8.9375H3V7.4375H1.125ZM4.125 7.4375V8.9375H6.375V7.4375H4.125ZM7.5 7.4375V8.9375H9.375V7.4375H7.5ZM9.375 5H7.5V6.3125H9.375V5ZM9.375 10.0625H7.5V11.375H9C9.1875 11.375 9.375 11.2109 9.375 11V10.0625ZM6.375 10.0625H4.125V11.375H6.375V10.0625ZM3 10.0625H1.125V11C1.125 11.2109 1.28906 11.375 1.5 11.375H3V10.0625ZM6.375 5H4.125V6.3125H6.375V5Z"
+                          fill="#EC4814"
+                        />
+                      </svg>
+                      October 19, 2022
+                    </p>
+                    <p
+                      class="flex h-fit items-center text-paragraph text-lg gap-2.5"
+                    >
+                      <svg
+                        width="11"
+                        height="13"
+                        viewBox="0 0 11 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6.375 7.625C8.64844 7.625 10.5 9.47656 10.5 11.75C10.5 12.1719 10.1484 12.5 9.75 12.5H0.75C0.328125 12.5 0 12.1719 0 11.75C0 9.47656 1.82812 7.625 4.125 7.625H6.375ZM1.125 11.375H9.35156C9.16406 9.89844 7.89844 8.75 6.375 8.75H4.125C2.57812 8.75 1.3125 9.89844 1.125 11.375ZM5.25 6.5C3.58594 6.5 2.25 5.16406 2.25 3.5C2.25 1.85938 3.58594 0.5 5.25 0.5C6.89062 0.5 8.25 1.85938 8.25 3.5C8.25 5.16406 6.89062 6.5 5.25 6.5ZM5.25 1.625C4.19531 1.625 3.375 2.46875 3.375 3.5C3.375 4.55469 4.19531 5.375 5.25 5.375C6.28125 5.375 7.125 4.55469 7.125 3.5C7.125 2.46875 6.28125 1.625 5.25 1.625Z"
+                          fill="#EC4814"
+                        />
+                      </svg>
+
+                      Mesbah
+                    </p>
+                  </div>
+                  <h1 class="text-heading text-2xl font-bold mt-2.5 pb-[30px]">
+                    Inspire meets brands with digital technology
+                  </h1>
+                  <a
+                    href="blog-details.html"
+                    class="flex h-fit items-center gap-2.5 text-base font-bold text-sb-orange relative before:block before:w-full before:h-full before:border-b before:border-sb-orange before:absolute w-fit before:ease-out before:origin-right hover:before:origin-left before:transition-transform before:duration-300 before:scale-x-0 hover:before:scale-x-100 group"
+                  >
+                    Read More
+                    <svg
+                      class="group-hover:scale-x-125 origin-left transition-transform duration-300"
+                      width="15"
+                      height="13"
+                      viewBox="0 0 15 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog end  -->
+
+    <!-- footer start  -->
+    <section
+      class="mt-[60px] mx-auto lg:mt-[120px] relative bg-transparent w-full"
+    >
+      <!-- footer  -->
+      <div
+        data-aos="fade-in"
+        class="bg-white rounded-[20px] max-w-[1760px] pt-10 lg:pt-20 px-4 xl:px-0"
+      >
+        <div class="container">
+          <div class="flex justify-between flex-wrap gap-5 pb-5 lg:pb-20">
+            <div class="max-w-[300px] w-full">
+              <img src="./assets/img/home-2/logo-footer.png" alt="" class="" />
+              <p class="text-paragraph text-lg mt-12">
+                IT Solution is a broad category encompasses various
+              </p>
+
+              <div class="flex gap-5 mt-5">
+                <a
+                  href="https://www.facebook.com/"
+                  target="blank"
+                  aria-label="Facebook"
+                  class="text-heading hover:text-white transition-all duration-300 h-[35px] w-[35px] rounded-[5px] border border-[#F5F5F5] flex justify-center items-center relative overflow-hidden before:block before:w-full before:h-full before:absolute before:bg-sb-orange before:z-0 before:transition-transform before:duration-300 before:ease-out before:scale-x-0 before:origin-right hover:before:origin-left hover:before:scale-x-100"
+                >
+                  <svg
+                    class="relative z-10"
+                    width="9"
+                    height="15"
+                    viewBox="0 0 9 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.62891
+                  8.625H5.57812V14.75H2.84375V8.625H0.601562V6.10938H2.84375V4.16797C2.84375
+                  1.98047 4.15625 0.75 6.15234 0.75C7.10938 0.75 8.12109
+                  0.941406 8.12109 0.941406V3.10156H7C5.90625 3.10156 5.57812
+                  3.75781 5.57812 4.46875V6.10938H8.01172L7.62891 8.625Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://x.com/"
+                  target="blank"
+                  aria-label="Twitter"
+                  class="text-heading hover:text-white transition-all duration-300 h-[35px] w-[35px] rounded-[5px] border border-[#F5F5F5] flex justify-center items-center relative overflow-hidden before:block before:w-full before:h-full before:absolute before:bg-sb-orange before:z-0 before:transition-transform before:duration-300 before:ease-out before:scale-x-0 before:origin-right hover:before:origin-left hover:before:scale-x-100"
+                >
+                  <svg
+                    class="relative z-10"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.52217 6.77491L15.4785 0H14.0671L8.89516
+                  5.88256L4.76437 0H0L6.24656 8.89547L0 16H1.41155L6.87321
+                  9.78782L11.2356 16H16L9.52183 6.77491H9.52217ZM7.58887
+                  8.97384L6.95596 8.08805L1.92015 1.03974H4.0882L8.15216
+                  6.72795L8.78507 7.61374L14.0677 15.0075H11.8997L7.58887
+                  8.97418V8.97384Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="blank"
+                  aria-label="Instagram"
+                  class="text-heading hover:text-white transition-all duration-300 h-[35px] w-[35px] rounded-[5px] border border-[#F5F5F5] flex justify-center items-center relative overflow-hidden before:block before:w-full before:h-full before:absolute before:bg-sb-orange before:z-0 before:transition-transform before:duration-300 before:ease-out before:scale-x-0 before:origin-right hover:before:origin-left hover:before:scale-x-100"
+                >
+                  <svg
+                    class="relative z-10"
+                    width="13"
+                    height="13"
+                    viewBox="0 0 13 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.375 0.625C11.8398 0.625 12.25 1.03516 12.25 1.52734V12C12.25 12.4922 11.8398 12.875 11.375 12.875H0.847656C0.382812 12.875 0 12.4922 0 12V1.52734C0 1.03516 0.382812 0.625 0.847656 0.625H11.375ZM3.69141 11.125V5.30078H1.88672V11.125H3.69141ZM2.78906 4.48047C3.36328 4.48047 3.82812 4.01562 3.82812 3.44141C3.82812 2.86719 3.36328 2.375 2.78906 2.375C2.1875 2.375 1.72266 2.86719 1.72266 3.44141C1.72266 4.01562 2.1875 4.48047 2.78906 4.48047ZM10.5 11.125V7.92578C10.5 6.36719 10.1445 5.13672 8.3125 5.13672C7.4375 5.13672 6.83594 5.62891 6.58984 6.09375H6.5625V5.30078H4.83984V11.125H6.64453V8.25391C6.64453 7.48828 6.78125 6.75 7.73828 6.75C8.66797 6.75 8.66797 7.625 8.66797 8.28125V11.125H10.5Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.pinterest.com/"
+                  target="blank"
+                  aria-label="Pinterest"
+                  class="text-heading hover:text-white transition-all duration-300 h-[35px] w-[35px] rounded-[5px] border border-[#F5F5F5] flex justify-center items-center relative overflow-hidden before:block before:w-full before:h-full before:absolute before:bg-sb-orange before:z-0 before:transition-transform before:duration-300 before:ease-out before:scale-x-0 before:origin-right hover:before:origin-left hover:before:scale-x-100"
+                >
+                  <svg
+                    class="relative z-10"
+                    width="11"
+                    height="15"
+                    viewBox="0 0 11 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.57812 0.941406C8.14844 0.941406 10.5 2.71875 10.5 5.42578C10.5 7.96875 9.1875 10.8125 6.28906 10.8125C5.57812 10.8125 4.73047 10.457 4.375 9.82812C3.77344 12.2891 3.80078 12.6719 2.43359 14.5586C2.29688 14.6133 2.32422 14.6133 2.24219 14.5039C2.1875 13.9844 2.13281 13.4922 2.13281 12.9727C2.13281 11.3047 2.89844 8.87109 3.28125 7.25781C3.0625 6.82031 3.00781 6.32812 3.00781 5.86328C3.00781 3.67578 5.57812 3.34766 5.57812 5.15234C5.57812 6.21875 4.83984 7.23047 4.83984 8.26953C4.83984 8.95312 5.44141 9.44531 6.125 9.44531C8.01172 9.44531 8.58594 6.73828 8.58594 5.28906C8.58594 3.34766 7.21875 2.28125 5.33203 2.28125C3.17188 2.28125 1.50391 3.83984 1.50391 6.02734C1.50391 7.09375 2.16016 7.64062 2.16016 7.88672C2.16016 8.10547 1.99609 8.84375 1.72266 8.84375C1.06641 8.84375 0 7.75 0 5.83594C0 2.80078 2.76172 0.941406 5.57812 0.941406Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- links  -->
+            <div class="">
+              <h1 class="text-2xl font-bold text-heading pb-4">Service</h1>
+              <a
+                href="service_details.html"
+                class="text-lg text-paragraph hover:text-heading py-2.5 flex gap-1 items-center group"
+              >
+                <svg
+                  class="scale-100 scale-x-0 origin-left transition-all group-hover:scale-x-100"
+                  width="12"
+                  height="10"
+                  viewBox="0 0 12 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.72749
+                9.99994H7.07366C7.24112 9.99994 7.40148 9.93241 7.51984
+                9.81227L11.8153 5.45255C11.8738 5.39312 11.9203 5.32257 11.952
+                5.24491C11.9837 5.16726 12 5.08402 12 4.99997C12 4.91592 11.9837
+                4.83268 11.952 4.75503C11.9203 4.67737 11.8738 4.60682 11.8153
+                4.54739L7.51984 0.18767C7.46129 0.128163 7.39173 0.080985
+                7.31516 0.0488265C7.2386 0.016668 7.15653 0.000161227 7.07366
+                0.00027032L5.72749 0C5.60283 0.00019053 5.48101 0.0378511
+                5.37742 0.108229C5.27382 0.178608 5.19308 0.278544 5.14538
+                0.395444C5.09768 0.512344 5.08516 0.640976 5.1094
+                0.76509C5.13364 0.889203 5.19356 1.00324 5.28158 1.09284L9.07083
+                4.93879C9.08679 4.95503 9.09575 4.97704 9.09575 4.99997C9.09575
+                5.0229 9.08679 5.04491 9.07083 5.06115L5.28158 8.90711C5.19342
+                8.99665 5.13339 9.11071 5.10907 9.23487C5.08476 9.35903 5.09725
+                9.48771 5.14497 9.60467C5.19269 9.72162 5.2735 9.82159 5.37718
+                9.89195C5.48087 9.9623 5.60277 9.99988 5.72749 9.99994ZM0.630794
+                9.99994H1.97697C2.0598 9.99995 2.14182 9.98339 2.21833
+                9.95118C2.29485 9.91898 2.36435 9.87177 2.42287 9.81227L6.7183
+                5.45255C6.77687 5.39312 6.82333 5.32257 6.85502 5.24491C6.88672
+                5.16726 6.90303 5.08402 6.90303 4.99997C6.90303 4.91592 6.88672
+                4.83268 6.85502 4.75503C6.82333 4.67737 6.77687 4.60682 6.7183
+                4.54739L2.42287 0.18767C2.36437 0.128171 2.29486 0.0809857
+                2.21834 0.0488265C2.14182 0.0166673 2.05979 0.0001674 1.97697
+                0.00027032L0.630794 0C0.50605 4.14874e-06 0.384108 0.0375393
+                0.280383 0.107874C0.176658 0.17821 0.0958084 0.278191 0.0480539
+                0.395157C0.000299455 0.512123 -0.0122153 0.640821 0.0120919
+                0.765005C0.036399 0.889189 0.0964367 1.00328 0.184615
+                1.09284L3.97386 4.93879C3.98982 4.95503 3.99878 4.97704 3.99878
+                4.99997C3.99878 5.0229 3.98982 5.04491 3.97386 5.06115L0.184615
+                8.90711C0.0964367 8.99666 0.036399 9.11075 0.0120919
+                9.23494C-0.0122153 9.35912 0.000299455 9.48782 0.0480539
+                9.60478C0.0958084 9.72175 0.176658 9.82173 0.280383
+                9.89207C0.384108 9.9624 0.50605 9.99994 0.630794 9.99994Z"
+                    fill="currentColor"
+                  />
+                </svg>
+
+                <span
+                  class="-translate-x-3 transition-all duration-300 group-hover:translate-x-1"
+                >
+                  Digital Transformation
+                </span>
+              </a>
+              <a
+                href="service_details.html"
+                class="text-lg text-paragraph hover:text-heading py-2.5 flex gap-1 items-center group"
+              >
+                <svg
+                  class="scale-100 scale-x-0 origin-left transition-all group-hover:scale-x-100"
+                  width="12"
+                  height="10"
+                  viewBox="0 0 12 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.72749
+                9.99994H7.07366C7.24112 9.99994 7.40148 9.93241 7.51984
+                9.81227L11.8153 5.45255C11.8738 5.39312 11.9203 5.32257 11.952
+                5.24491C11.9837 5.16726 12 5.08402 12 4.99997C12 4.91592 11.9837
+                4.83268 11.952 4.75503C11.9203 4.67737 11.8738 4.60682 11.8153
+                4.54739L7.51984 0.18767C7.46129 0.128163 7.39173 0.080985
+                7.31516 0.0488265C7.2386 0.016668 7.15653 0.000161227 7.07366
+                0.00027032L5.72749 0C5.60283 0.00019053 5.48101 0.0378511
+                5.37742 0.108229C5.27382 0.178608 5.19308 0.278544 5.14538
+                0.395444C5.09768 0.512344 5.08516 0.640976 5.1094
+                0.76509C5.13364 0.889203 5.19356 1.00324 5.28158 1.09284L9.07083
+                4.93879C9.08679 4.95503 9.09575 4.97704 9.09575 4.99997C9.09575
+                5.0229 9.08679 5.04491 9.07083 5.06115L5.28158 8.90711C5.19342
+                8.99665 5.13339 9.11071 5.10907 9.23487C5.08476 9.35903 5.09725
+                9.48771 5.14497 9.60467C5.19269 9.72162 5.2735 9.82159 5.37718
+                9.89195C5.48087 9.9623 5.60277 9.99988 5.72749 9.99994ZM0.630794
+                9.99994H1.97697C2.0598 9.99995 2.14182 9.98339 2.21833
+                9.95118C2.29485 9.91898 2.36435 9.87177 2.42287 9.81227L6.7183
+                5.45255C6.77687 5.39312 6.82333 5.32257 6.85502 5.24491C6.88672
+                5.16726 6.90303 5.08402 6.90303 4.99997C6.90303 4.91592 6.88672
+                4.83268 6.85502 4.75503C6.82333 4.67737 6.77687 4.60682 6.7183
+                4.54739L2.42287 0.18767C2.36437 0.128171 2.29486 0.0809857
+                2.21834 0.0488265C2.14182 0.0166673 2.05979 0.0001674 1.97697
+                0.00027032L0.630794 0C0.50605 4.14874e-06 0.384108 0.0375393
+                0.280383 0.107874C0.176658 0.17821 0.0958084 0.278191 0.0480539
+                0.395157C0.000299455 0.512123 -0.0122153 0.640821 0.0120919
+                0.765005C0.036399 0.889189 0.0964367 1.00328 0.184615
+                1.09284L3.97386 4.93879C3.98982 4.95503 3.99878 4.97704 3.99878
+                4.99997C3.99878 5.0229 3.98982 5.04491 3.97386 5.06115L0.184615
+                8.90711C0.0964367 8.99666 0.036399 9.11075 0.0120919
+                9.23494C-0.0122153 9.35912 0.000299455 9.48782 0.0480539
+                9.60478C0.0958084 9.72175 0.176658 9.82173 0.280383
+                9.89207C0.384108 9.9624 0.50605 9.99994 0.630794 9.99994Z"
+                    fill="currentColor"
+                  />
+                </svg>
+
+                <span
+                  class="-translate-x-3 transition-all duration-300 group-hover:translate-x-1"
+                >
+                  Custom Software
+                </span>
+              </a>
+              <a
+                href="service_details.html"
+                class="text-lg text-paragraph hover:text-heading py-2.5 flex gap-1 items-center group"
+              >
+                <svg
+                  class="scale-100 scale-x-0 origin-left transition-all group-hover:scale-x-100"
+                  width="12"
+                  height="10"
+                  viewBox="0 0 12 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.72749
+              9.99994H7.07366C7.24112 9.99994 7.40148 9.93241 7.51984
+              9.81227L11.8153 5.45255C11.8738 5.39312 11.9203 5.32257 11.952
+              5.24491C11.9837 5.16726 12 5.08402 12 4.99997C12 4.91592 11.9837
+              4.83268 11.952 4.75503C11.9203 4.67737 11.8738 4.60682 11.8153
+              4.54739L7.51984 0.18767C7.46129 0.128163 7.39173 0.080985
+              7.31516 0.0488265C7.2386 0.016668 7.15653 0.000161227 7.07366
+              0.00027032L5.72749 0C5.60283 0.00019053 5.48101 0.0378511
+              5.37742 0.108229C5.27382 0.178608 5.19308 0.278544 5.14538
+              0.395444C5.09768 0.512344 5.08516 0.640976 5.1094
+              0.76509C5.13364 0.889203 5.19356 1.00324 5.28158 1.09284L9.07083
+              4.93879C9.08679 4.95503 9.09575 4.97704 9.09575 4.99997C9.09575
+              5.0229 9.08679 5.04491 9.07083 5.06115L5.28158 8.90711C5.19342
+              8.99665 5.13339 9.11071 5.10907 9.23487C5.08476 9.35903 5.09725
+              9.48771 5.14497 9.60467C5.19269 9.72162 5.2735 9.82159 5.37718
+              9.89195C5.48087 9.9623 5.60277 9.99988 5.72749 9.99994ZM0.630794
+              9.99994H1.97697C2.0598 9.99995 2.14182 9.98339 2.21833
+              9.95118C2.29485 9.91898 2.36435 9.87177 2.42287 9.81227L6.7183
+              5.45255C6.77687 5.39312 6.82333 5.32257 6.85502 5.24491C6.88672
+              5.16726 6.90303 5.08402 6.90303 4.99997C6.90303 4.91592 6.88672
+              4.83268 6.85502 4.75503C6.82333 4.67737 6.77687 4.60682 6.7183
+              4.54739L2.42287 0.18767C2.36437 0.128171 2.29486 0.0809857
+              2.21834 0.0488265C2.14182 0.0166673 2.05979 0.0001674 1.97697
+              0.00027032L0.630794 0C0.50605 4.14874e-06 0.384108 0.0375393
+              0.280383 0.107874C0.176658 0.17821 0.0958084 0.278191 0.0480539
+              0.395157C0.000299455 0.512123 -0.0122153 0.640821 0.0120919
+              0.765005C0.036399 0.889189 0.0964367 1.00328 0.184615
+              1.09284L3.97386 4.93879C3.98982 4.95503 3.99878 4.97704 3.99878
+              4.99997C3.99878 5.0229 3.98982 5.04491 3.97386 5.06115L0.184615
+              8.90711C0.0964367 8.99666 0.036399 9.11075 0.0120919
+              9.23494C-0.0122153 9.35912 0.000299455 9.48782 0.0480539
+              9.60478C0.0958084 9.72175 0.176658 9.82173 0.280383
+              9.89207C0.384108 9.9624 0.50605 9.99994 0.630794 9.99994Z"
+                    fill="currentColor"
+                  />
+                </svg>
+
+                <span
+                  class="-translate-x-3 transition-all duration-300 group-hover:translate-x-1"
+                >
+                  Network Infrastructure
+                </span>
+              </a>
+              <a
+                href="service_details.html"
+                class="text-lg text-paragraph hover:text-heading py-2.5 flex gap-1 items-center group"
+              >
+                <svg
+                  class="scale-100 scale-x-0 origin-left transition-all group-hover:scale-x-100"
+                  width="12"
+                  height="10"
+                  viewBox="0 0 12 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.72749
+            9.99994H7.07366C7.24112 9.99994 7.40148 9.93241 7.51984
+            9.81227L11.8153 5.45255C11.8738 5.39312 11.9203 5.32257 11.952
+            5.24491C11.9837 5.16726 12 5.08402 12 4.99997C12 4.91592 11.9837
+            4.83268 11.952 4.75503C11.9203 4.67737 11.8738 4.60682 11.8153
+            4.54739L7.51984 0.18767C7.46129 0.128163 7.39173 0.080985
+            7.31516 0.0488265C7.2386 0.016668 7.15653 0.000161227 7.07366
+            0.00027032L5.72749 0C5.60283 0.00019053 5.48101 0.0378511
+            5.37742 0.108229C5.27382 0.178608 5.19308 0.278544 5.14538
+            0.395444C5.09768 0.512344 5.08516 0.640976 5.1094
+            0.76509C5.13364 0.889203 5.19356 1.00324 5.28158 1.09284L9.07083
+            4.93879C9.08679 4.95503 9.09575 4.97704 9.09575 4.99997C9.09575
+            5.0229 9.08679 5.04491 9.07083 5.06115L5.28158 8.90711C5.19342
+            8.99665 5.13339 9.11071 5.10907 9.23487C5.08476 9.35903 5.09725
+            9.48771 5.14497 9.60467C5.19269 9.72162 5.2735 9.82159 5.37718
+            9.89195C5.48087 9.9623 5.60277 9.99988 5.72749 9.99994ZM0.630794
+            9.99994H1.97697C2.0598 9.99995 2.14182 9.98339 2.21833
+            9.95118C2.29485 9.91898 2.36435 9.87177 2.42287 9.81227L6.7183
+            5.45255C6.77687 5.39312 6.82333 5.32257 6.85502 5.24491C6.88672
+            5.16726 6.90303 5.08402 6.90303 4.99997C6.90303 4.91592 6.88672
+            4.83268 6.85502 4.75503C6.82333 4.67737 6.77687 4.60682 6.7183
+            4.54739L2.42287 0.18767C2.36437 0.128171 2.29486 0.0809857
+            2.21834 0.0488265C2.14182 0.0166673 2.05979 0.0001674 1.97697
+            0.00027032L0.630794 0C0.50605 4.14874e-06 0.384108 0.0375393
+            0.280383 0.107874C0.176658 0.17821 0.0958084 0.278191 0.0480539
+            0.395157C0.000299455 0.512123 -0.0122153 0.640821 0.0120919
+            0.765005C0.036399 0.889189 0.0964367 1.00328 0.184615
+            1.09284L3.97386 4.93879C3.98982 4.95503 3.99878 4.97704 3.99878
+            4.99997C3.99878 5.0229 3.98982 5.04491 3.97386 5.06115L0.184615
+            8.90711C0.0964367 8.99666 0.036399 9.11075 0.0120919
+            9.23494C-0.0122153 9.35912 0.000299455 9.48782 0.0480539
+            9.60478C0.0958084 9.72175 0.176658 9.82173 0.280383
+            9.89207C0.384108 9.9624 0.50605 9.99994 0.630794 9.99994Z"
+                    fill="currentColor"
+                  />
+                </svg>
+
+                <span
+                  class="-translate-x-3 transition-all duration-300 group-hover:translate-x-1"
+                >
+                  Data Analytic Insights
+                </span>
+              </a>
+            </div>
+            <!-- links  -->
+            <div class="w-full sm:w-fit">
+              <h1 class="text-2xl font-bold text-heading pb-4">Contact</h1>
+              <a
+                href=""
+                class="text-lg text-white hover:text-sb-orange py-2.5 flex gap-5 group"
+              >
+                <div
+                  class="flex items-center justify-center bg-[#FFFAF0] w-10 h-10 rounded-[10px]"
+                >
+                  <svg
+                    width="17"
+                    height="18"
+                    viewBox="0 0 17 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.8"
+                      d="M15.9688 13.0938L15.2188 16.25C15.125 16.7188 14.75 17.0312 14.2812 17.0312C6.40625 17 0 10.5938 0 2.71875C0 2.25 0.28125 1.875 0.75 1.78125L3.90625 1.03125C4.34375 0.9375 4.8125 1.1875 5 1.59375L6.46875 5C6.625 5.40625 6.53125 5.875 6.1875 6.125L4.5 7.5C5.5625 9.65625 7.3125 11.4062 9.5 12.4688L10.875 10.7812C11.125 10.4688 11.5938 10.3438 12 10.5L15.4062 11.9688C15.8125 12.1875 16.0625 12.6562 15.9688 13.0938Z"
+                      fill="#EC4814"
+                    />
+                  </svg>
+                </div>
+
+                <div class="">
+                  <h1
+                    class="text-lg font-bold text-heading leading-[18px] pb-2"
+                  >
+                    Phone Number
+                  </h1>
+                  <h2 class="text-lg text-paragraph">012 345 678 9101</h2>
+                </div>
+              </a>
+              <a
+                href=""
+                class="text-lg text-white h-fit hover:text-sb-orange py-2.5 flex gap-5 group"
+              >
+                <div
+                  class="flex items-center justify-center bg-[#FFFAF0] w-10 h-10 rounded-[10px]"
+                >
+                  <svg
+                    width="12"
+                    height="17"
+                    viewBox="0 0 12 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.8"
+                      d="M5.25 15.625C3.625 13.5938 0 8.75 0 6C0 2.6875 2.65625 0 6 0C9.3125 0 12 2.6875 12 6C12 8.75 8.34375 13.5938 6.71875 15.625C6.34375 16.0938 5.625 16.0938 5.25 15.625ZM6 8C7.09375 8 8 7.125 8 6C8 4.90625 7.09375 4 6 4C4.875 4 4 4.90625 4 6C4 7.125 4.875 8 6 8Z"
+                      fill="#EC4814"
+                    />
+                  </svg>
+                </div>
+                <div class="">
+                  <h1
+                    class="text-lg font-bold text-heading leading-[18px] pb-2"
+                  >
+                    Location
+                  </h1>
+                  <h2 class="text-lg text-paragraph">66 Broklyant,New India</h2>
+                </div>
+              </a>
+
+              <a
+                href=""
+                class="text-lg text-white hover:text-sb-orange py-2.5 flex gap-5 group"
+              >
+                <div
+                  class="flex items-center justify-center bg-[#FFFAF0] w-10 h-10 rounded-[10px]"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.8"
+                      d="M14.5 2C15.3125 2 16 2.6875 16 3.5C16 4 15.75 4.4375 15.375 4.71875L8.59375 9.8125C8.21875 10.0938 7.75 10.0938 7.375 9.8125L0.59375 4.71875C0.21875 4.4375 0 4 0 3.5C0 2.6875 0.65625 2 1.5 2H14.5ZM6.78125 10.625C7.5 11.1562 8.46875 11.1562 9.1875 10.625L16 5.5V12C16 13.125 15.0938 14 14 14H2C0.875 14 0 13.125 0 12V5.5L6.78125 10.625Z"
+                      fill="#EC4814"
+                    />
+                  </svg>
+                </div>
+                <div class="">
+                  <h1
+                    class="text-lg font-bold text-heading leading-[18px] pb-2"
+                  >
+                    Email
+                  </h1>
+                  <h2 class="text-lg text-paragraph">abcd@gmail.com</h2>
+                </div>
+              </a>
+            </div>
+            <!-- links  -->
+            <div class="w-full sm:w-fit">
+              <h1 class="text-2xl font-bold text-heading pb-4">
+                Get Our App From
+              </h1>
+
+              <div class="flex flex-col gap-5">
+                <a
+                  href="https://play.google.com/"
+                  target="blank"
+                  aria-label="Play Store"
+                  class="flex border-2 border-black transition-all duration-300 hover:border-sb-orange py-3.5 px-5 rounded-xl"
+                >
+                  <img src="./assets/img/icon/play-store.png" alt="" class="" />
+                </a>
+                <a
+                  href="https://www.apple.com/"
+                  target="blank"
+                  aria-label="App store"
+                  class="flex border-2 border-black transition-all duration-300 hover:border-sb-orange py-3.5 px-5 rounded-xl"
+                >
+                  <img src="./assets/img/icon/app-store.png" alt="" class="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- copyright -->
+      <div class="container px-4 xl:px-0">
+        <div class="flex flex-col sm:flex-row justify-between py-[30px]">
+          <p class="text-lg text-paragraph">
+            © Yoursitename 2024 | All Rights Reserved
+          </p>
+          <div class="flex gap-[30px] text-lg text-paragraph">
+            <a href="" class="transition-all duration-300 hover:text-sb-orange">
+              Trams & Condition
+            </a>
+            <a href="" class="transition-all duration-300 hover:text-sb-orange">
+              Privacy Policy
+            </a>
+            <a href="" class="transition-all duration-300 hover:text-sb-orange">
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer end  -->
+    <!-- AOS  -->
+    <script src="./assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- swiper  -->
+    <script src="./assets/js/swiper-bundle.js"></script>
+    <!-- parallax  -->
+    <script src="./assets/js/parallax.min.js"></script>
+    <!-- plugin  -->
+    <script src="./assets/js/plugins.js"></script>
+    <!-- all need js  -->
+    <script src="./assets/js/main.js"></script>
+    <!-- mouse animation  -->
+    <canvas
+      class="w-full h-full max-w-[100vw] max-h-screen fixed z-[9999999999999] top-0 bg-opacity-0 pointer-events-none"
+    ></canvas>
+    <script src="./assets/js/mouseCanvas.bundle.js"></script>
+  </body>
+</html>
